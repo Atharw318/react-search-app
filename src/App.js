@@ -22,6 +22,8 @@ function App() {
             data.first_name.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return data;
+          } else {
+            return data;
           }
         }).map((data, index) => {
           return <div>{data.first_name}</div>;
