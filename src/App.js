@@ -16,7 +16,7 @@ function App() {
       />
       <div>
         {Data.filter((data) => {
-          if (searchTerm == "") {
+          if (searchTerm === "") {
             return data;
           } else if (
             data.first_name.toLowerCase().includes(searchTerm.toLowerCase())
